@@ -1,0 +1,19 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0 auto;
+    width: 1128px;
+    justify-content: space-between;
+
+}
+
+.gallery-item {
+    display: flex;
+    width: calc((100% - 48px) / 3);
+}
+.simple-lightbox-overlay {
+    background-color: rgba(46, 47, 66, 0.8);
+}
+
+
